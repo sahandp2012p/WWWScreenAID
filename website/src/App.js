@@ -1,11 +1,9 @@
-import "./App.css";
+const App = () => (
+  <div className="App">
+    <h1>WWWSCREENAID</h1>
 
-function App() {
-  return (
-    <div className="App">
-      <h1>WWWSCREENAID</h1>
-    </div>
-  );
-}
+    <button className="btn btn-primary">Hi</button>
+  </div>
+);
 
 export default App;
